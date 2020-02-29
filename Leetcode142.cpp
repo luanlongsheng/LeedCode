@@ -1,3 +1,4 @@
+
 struct ListNode *detectCycle(struct ListNode *head) {
     struct ListNode *p = head, *q = head;
     if (p == NULL) return NULL;
